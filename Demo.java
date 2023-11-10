@@ -10,11 +10,12 @@ public class Demo {
 	public static void main(String args[]) {
 		Dog maomao = new Dog() {
 			public void move() {
-				System.out.println("四腿狂奔");
+				System.out.println("开始移动");
 			}
 
 			public void call() {
 				System.out.println("嗷呜~");
+				System.out.println("喵喵");
 			}
 		};
 		maomao.Color = "灰色";
