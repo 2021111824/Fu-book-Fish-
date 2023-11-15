@@ -10,16 +10,17 @@ public class Demo {
 	public static void main(String args[]) {
 		Dog maomao = new Dog() {
 			public void move() {
-				System.out.println("¿ªÊ¼ÒÆ¶¯");
+				System.out.println("ï¿½ï¿½Ê¼ï¿½Æ¶ï¿½");
 			}
 
 			public void call() {
-				System.out.println("à»ÎØ~");
-				System.out.println("ß÷ß÷");
+				System.out.println("ï¿½ï¿½ï¿½~");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½");
 			}
 		};
-		maomao.Color = "»ÒÉ«";
+		maomao.Color = "ï¿½ï¿½É«";
 		maomao.move();
 		maomao.call();
+		// tbåˆ°æ­¤ä¸€æ¸¸
 	}
 }
